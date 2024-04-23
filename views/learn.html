@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Learn Vocabulary</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <div id="menu">
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/learn">Learn Vocabulary</a></li>
+            <li><a href="/vocabulary">View All Vocabulary</li>
+            <li><a href="/add">Add Vocabulary</a></li>
+        </ul>
+    </div>
+    <h1>Learn Vocabulary</h1>
+
+    <div id="random-vocabulary">
+        <p>Word: <span id="random-word"></span></p>
+    </div>
+
+    <form id="match-vocabulary-form">
+        <input type="text" id="match-input" placeholder="Type English: Vietnamese" required>
+        <button type="submit">Check</button>
+    </form>
+
+    <div id="match-feedback"></div>
+
+    <script src="/js/learn.js"></script>
+</body>
+
+</html>
